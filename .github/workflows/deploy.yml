@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # ветка для деплоя
+          branch: main  # ветка для деплоя
           folder: dist     # папка со собранным проектом
           token: ${{ secrets.GITHUB_TOKEN }}
